@@ -1,0 +1,44 @@
+@import '../../styles/variaveis.scss';
+
+.SectionInicial{
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    
+
+    .TextosIniciais{
+        color: $colorAzul;
+        padding: 0 2rem;
+        width: 60%;
+
+        h1{
+            font-family: $fontePrincipal;
+            font-weight: 700 bold;
+            font-size: 5.7rem;
+            line-height: 4.8rem;
+            margin-bottom: 2rem;
+        }
+
+        p{
+            font-family: $fonteOutras;
+            font-weight: 400 normal;
+            font-size: 1.7rem;
+        }
+
+    }
+
+
+}
+
+.SectionImg{
+    margin: 0 auto;
+    padding-top: 2.8rem;
+    width: 35%;
+
+    Img{
+      width: 25.5rem;    
+    }
+
+}
+
+
