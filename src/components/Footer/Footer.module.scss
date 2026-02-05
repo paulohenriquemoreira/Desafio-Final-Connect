@@ -51,3 +51,31 @@
     }
 
 }
+
+
+// Responsividade Tablet
+
+@media(min-width:501px) and (max-width: 900px){
+  /* Estilos para desktops grandes */
+}
+
+
+// Responsividade Laptop/Notebook
+
+@media(min-width:901px) and (max-width: 15000px){
+  /* Estilos para desktops grandes */
+}
+
+
+// Responsividade Desktop
+
+@media(min-width:15001px) and (max-width: 18000px){
+  /* Estilos para desktops grandes */
+}
+
+
+// Responsividade Tela Ampla
+
+@media(min-width:18001px){
+  /* Estilos para desktops grandes */
+}

@@ -2,48 +2,46 @@
 
 .NavBarHeader {
   background-color: $colorAzul;
-  display: flex;
+  display: flex;  
   align-items: center;
+  justify-content: space-around;
   height: 10vh;
-  padding: 0 4rem;
+  //padding: 0 4rem;
 
-  /* LOGO */
+  /* Logo - Connect */
     .Logo, img {
-    height: 2.5rem;
+      height: 1.5rem;
 
-        &:hover{
+         &:hover{
           transform: scale(1.1);
-        }
+         }
+        
+
     }
 }
 
-
-
-/* MENU */
+/* Menu */
 .ListaNavBar {
   display: flex;
-  gap: 2rem;
-  list-style: none;
-  margin: 0 auto;
-  padding: 0;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 60vw;
+ 
 
     .ListaItemNavBar {
         color: $colorBranco;
         font-family: $fonteSecundaria;
-        font-size: 1.3rem;
-        margin: 0 1rem;
-        text-decoration: none;
-        transition: opacity 0.2s ease;
+        font-size: 0.6rem;
 
-            &:hover {
-                opacity: 0.8;
-                color: $colorAzulClaro;
-            }
+        &:hover{
+          color: $colorAzulClaro;
+        }
+
     }
 
 }
 
-/* PERFIL */
+/* Perfil */
 .Perfil {
   display: flex;
   align-items: center;
@@ -64,3 +62,84 @@
   }
 }
 
+// Responsividade Tablet
+
+@media(min-width:501px) and (max-width: 900px){
+    .NavBarHeader {
+
+        .Logo, img {
+        height: 3rem;
+
+        }
+    }
+
+    /* Menu */
+    .ListaNavBar {
+  
+        .ListaItemNavBar {
+          font-size: 1.3rem;
+        }
+
+    }
+
+    /* Perfil */
+    .Perfil {
+
+      .ImgPerfil {
+        width: 5rem;
+        height: 5rem;
+        border: 0.35rem solid $colorAzulClaro;
+
+      }
+    }
+}
+
+
+// Responsividade Laptop/Notebook
+
+@media(min-width:901px) and (max-width: 15000px){
+     .NavBarHeader {
+      height: 15vh;
+      justify-content: space-around;
+        .Logo, img {
+          height: 4rem;
+
+        }
+    }
+
+    /* Menu */
+    .ListaNavBar {
+  
+        .ListaItemNavBar {
+          font-size: 1.3rem;
+        }
+
+    }
+
+    /* Perfil */
+    .Perfil {
+
+      .ImgPerfil {
+        width: 5rem;
+        height: 5rem;
+        border: 0.35rem solid $colorAzulClaro;
+
+      }
+    }
+
+
+}
+
+
+// Responsividade Desktop
+
+@media(min-width:15001px) and (max-width: 18000px){
+  /* Estilos para desktops grandes */
+}
+
+
+// Responsividade Tela Ampla
+
+@media(min-width:18001px){
+  /* Estilos para desktops grandes */
+}
