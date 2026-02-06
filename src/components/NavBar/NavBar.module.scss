@@ -1,4 +1,4 @@
-@import '../../styles/variaveis.scss';
+@use '../../styles/variaveis' as*;
 
 .NavBarHeader {
   background-color: $colorAzul;
