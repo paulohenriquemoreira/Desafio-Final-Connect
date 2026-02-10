@@ -21,7 +21,7 @@
 
     
 
-    h1{
+    h2{
         font-size: 1.5rem;
         margin: 1rem 0;
         font-family: $fonteSecundaria;
@@ -30,6 +30,7 @@
     h4{
         font-size: 1rem;
         font-family: $fonteSecundaria;
+        color: $colorVerdeEscura;
         
     }
 
@@ -80,7 +81,7 @@
 
         .DescricaoPerfil{            
 
-            h1{
+            h2{
                 font-size: 2.5rem;
                 margin: 1.3rem 0;
             }
@@ -129,7 +130,7 @@
 
             .FotoPerfil{
                 border: 0.5rem solid $colorAzulClaro;
-                width: 20%;
+                width: 25%;
             }
 
         }
@@ -138,21 +139,21 @@
             width: 50%;
             text-align: center;
             margin: 0.6rem 0 0.6rem 2.8rem;
-            //padding: 3rem;
+            
             
 
-            h1{
-                font-size: 1.5rem;
+            h2{
+                font-size: 1.8rem;
                 margin: 0.8rem 0;
             }
 
             h4{
-                font-size: 1rem;
+                font-size: 1.2rem;
                 
             }
 
             .TextoDescricao{
-                font-size: 0.91rem;
+                font-size: 0.95rem;
                 margin: 0.6rem 0 0.6rem 1rem;
                 text-align: left;
             }
@@ -181,6 +182,10 @@
                 color: $colorVerdeEscura;
                 padding: 0.5rem;
                 border-radius: 0.7rem;
+
+                &:hover{
+                    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+                }
             }
         }
 

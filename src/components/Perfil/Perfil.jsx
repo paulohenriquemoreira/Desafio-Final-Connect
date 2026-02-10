@@ -10,7 +10,7 @@ export default function Perfil() {
       <article className={Styles.SectionPerfil}>
         <img src={FotoDePerfil} alt="Foto de Perfil" className={Styles.FotoPerfil} />
         <div className={Styles.DescricaoPerfil} >
-          <h1>Paulo Henrique Moreira</h1>
+          <h2>Paulo Henrique Moreira</h2>
           <h4>Voluntário Ativo</h4>
           <p className={Styles.TextoDescricao}>Apaixonado por fazer a diferença na comunidade. Acredito que pequenas ações podem 
             transformar vidas e estou sempre em busca de novas oportunidades para ajudar.</p>
