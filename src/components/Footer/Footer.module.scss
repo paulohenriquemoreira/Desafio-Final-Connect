@@ -5,65 +5,165 @@
     background-color: $colorAzul;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    height: 15vh;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    height: 30vh;
     padding: 0 1.5rem;
 
     .LogoConnect{
         display: flex;
         align-items: center;
-        width: 10rem;
-        font-size: 1.5rem;
+        justify-content: center;
+        justify-content: space-evenly;
+        width: 60%;
         font-family: $fonteSecundaria;
-        font-weight: 400;
-        font-style: normal;
         color: $colorBranco;
 
         img{
           height: 3.13rem;
-          margin-right: 0.5rem;
+        }
+
+        .TextoLogo{
+          font-size: 1.5rem;
         }
 
         
     }
 
     .DireitosReservados{
-        width: 50rem;
-        padding: 0 13rem;
-        font-size: 0.8rem;
-        font-family: $fonteSecundaria;
-        font-weight: 400;
-        font-style: normal;
-        text-align: center;
-        color: $colorBranco;
+        width: 100%;
+
+        p{
+          font-size: 0.7rem;
+          font-family: $fonteSecundaria;
+          text-align: center;
+          color: $colorBranco;
+        }
     }
 
   
 }
 
-.RedesSociais{
-    width: 2rem;
-    margin: 0 0.5em;
+.RedesSociaisLista{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 65%;
+  
+    .RedesSociaisItem{
+        width: 2rem;
 
-    &:hover{
-        
-        transform: scale(1.2);
+        &:hover{
+            
+            transform: scale(1.2);
+        }
+
     }
 
 }
 
 
+
 // Responsividade Tablet
 
 @media(min-width:501px) and (max-width: 900px){
-  /* Estilos para desktops grandes */
+      .FooterSection{
+          height: 30vh;
+          //padding: 0 1.5rem;
+
+          .LogoConnect{
+              display: flex;
+              align-items: center;
+              justify-content: space-evenly;
+              width: 45%;
+
+              img{
+                height: 4rem;
+                margin-right: 0.5rem;
+              }
+
+              .TextoLogo{
+                font-size: 3rem;
+              }
+
+              
+          }
+
+          .DireitosReservados{
+              width: 95%;
+
+              p{
+                font-size: 1.5rem;
+              }
+          }
+
+        
+      }
+
+      .RedesSociaisLista{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 50%;
+        
+          .RedesSociaisItem{
+              width: 3.5rem;
+
+          }
+
+      }
+
+     
 }
 
 
 // Responsividade Laptop/Notebook
 
 @media(min-width:901px) and (max-width: 15000px){
-  /* Estilos para desktops grandes */
+        .FooterSection{
+            height: 20vh;
+            flex-direction: row;            
+            justify-content: space-between;
+
+            .LogoConnect{
+                width: 18%;
+
+                img{
+                  height: 3rem;
+                }
+
+                .TextoLogo{
+                  font-size: 1.8rem;
+                }
+
+                
+            }
+
+            .DireitosReservados{
+                width: 40%;
+                height: 8vh;
+
+                p{
+                  font-size: 1rem;
+                }
+            }
+
+          
+        }
+
+        .RedesSociaisLista{
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+          width: 15%;
+          
+            .RedesSociaisItem{
+                width: 1.8rem;
+
+            }
+
+        }
+
 }
 
 
