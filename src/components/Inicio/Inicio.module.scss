@@ -75,7 +75,7 @@
 
 @media(min-width:901px) and (max-width: 15000px){
           .SecaoInicio{
-            height: 100vh;
+            height: 80vh;
             flex-direction: row;
             padding: 0 2.1rem;
 
@@ -99,8 +99,9 @@
             }
 
             img{
-              width: 39%;
+              width: 35%;
               border-radius: 0%;
+              margin-top: 3.8rem;
             }
 
         }

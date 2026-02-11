@@ -70,7 +70,7 @@
 
 @media(min-width:901px) and (max-width: 15000px){
         .containerQuemSomos{
-            height: 90vh;
+            height: 80vh;
             background-image: url("../../assets//backgroundQuemSomos.png");
             background-repeat: no-repeat;
             background-size: 100% 90vh;
@@ -82,21 +82,21 @@
         }
 
         .boxTextosQuemSomos{
-            width: 37%;
-            height: 85vh;
+            width: 31%;
+            height: 75vh;
             display: flex;
             flex-direction: column;
             justify-content: space-around;
 
             h2{
-                font-size: 2.5rem;
+                font-size: 2.3rem;
                 font-family: $fontePrincipal;
                 color: $colorAzul;
                 text-align: left;
             }
 
             p{
-                font-size: 1.07rem;
+                font-size: 0.9rem;
                 font-family: $fonteSecundaria;
                 text-align: left;
             }

@@ -79,7 +79,6 @@
 
               img{
                 height: 4rem;
-                margin-right: 0.5rem;
               }
 
               .TextoLogo{
@@ -121,9 +120,11 @@
 
 @media(min-width:901px) and (max-width: 15000px){
         .FooterSection{
-            height: 20vh;
-            flex-direction: row;            
+            height: 15vh;
+            flex-direction: row;
+            align-items: center;          
             justify-content: space-between;
+            padding-top: 0.5rem;
 
             .LogoConnect{
                 width: 18%;
