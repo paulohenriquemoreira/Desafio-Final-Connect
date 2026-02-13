@@ -2,6 +2,7 @@
 
 .SecaoInicio{
   height: 80vh;
+  background-color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -44,7 +45,6 @@
 @media(min-width:501px) and (max-width: 900px){
         .SecaoInicio{
             height: 85vh;
-            background-color: aquamarine;
             padding: 0 2.1rem;
 
             .TextosIniciais{
@@ -71,9 +71,9 @@
 }
 
 
-// Responsividade Laptop/Notebook
+// Responsividade Laptop/Notebook   /(min-width:901px) and (max-width: 1728px)
 
-@media(min-width:901px) and (max-width: 15000px){
+@media(min-width:901px) and (max-width: 1728px){ 
           .SecaoInicio{
             height: 80vh;
             flex-direction: row;
@@ -108,15 +108,15 @@
 }
 
 
-// Responsividade Desktop
+// Responsividade Desktop /(min-width:1729px) and (max-width: 2048px)
 
-@media(min-width:15001px) and (max-width: 18000px){
+@media(min-width:1729px) and (max-width: 2048px){
   /* Estilos para desktops grandes */
 }
 
 
-// Responsividade Tela Ampla
+// Responsividade Tela Ampla /(min-width:2049px)
 
-@media(min-width:18001px){
+@media(min-width:2049px){
   /* Estilos para desktops grandes */
 }

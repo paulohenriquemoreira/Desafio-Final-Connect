@@ -147,8 +147,8 @@
     }
 }
 
-// Responsividade LapTop / Notebook
-@media(min-width:901px) and (max-width: 15000px){
+// Responsividade Laptop/Notebook   /(min-width:901px) and (max-width: 1728px)
+@media(min-width:901px) and (max-width: 1728px){
         .SectionAcoes{
             height: 160vh;
             display: flex;
@@ -222,16 +222,15 @@
 }
 
 
-// Responsividade Desktop
+// Responsividade Desktop /(min-width:1729px) and (max-width: 2048px)
 
-@media(min-width:15001px) and (max-width: 18000px){
- /* Estilos para desktops  */
+@media(min-width:1729px) and (max-width: 2048px){
+  /* Estilos para desktops grandes */
 }
 
 
+// Responsividade Tela Ampla /(min-width:2049px)
 
-// Responsividade Tela Ampla
-
-@media(min-width:18001px){
+@media(min-width:2049px){
   /* Estilos para desktops grandes */
 }
