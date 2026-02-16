@@ -195,12 +195,74 @@
 // Responsividade Desktop /(min-width:1729px) and (max-width: 2048px)
 
 @media(min-width:1729px) and (max-width: 2048px){
-  /* Estilos para desktops grandes */
+        .SectionPerfil{
+            height: 80vh;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            
+
+            .FotoPerfil{
+                border: 0.5rem solid $colorAzulClaro;
+                width: 25%;
+            }
+
+        }
+
+        .DescricaoPerfil{
+            width: 50%;
+            text-align: center;
+            margin: 0.6rem 0 0.6rem 2.8rem;
+            
+            
+
+            h2{
+                font-size: 1.8rem;
+                margin: 0.8rem 0;
+            }
+
+            h4{
+                font-size: 1.2rem;
+                
+            }
+
+            .TextoDescricao{
+                font-size: 1.3rem;
+                margin: 0.6rem 0 0.6rem 1rem;
+                text-align: left;
+            }
+        }
+
+        .Endereco{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.85rem;
+            margin-bottom: 1.7rem;
+
+            .EnderecoItem{
+                margin: 0 0.3rem;
+            }
+        }
+
+        .ListTags{
+            margin-top: 2rem;
+
+            .ListTagsItens{
+                font-size: 0.8rem;
+                margin: 0 0.5rem;
+                background-color: $colorVerdeClaro;
+                color: $colorVerdeEscura;
+                padding: 0.5rem;
+                border-radius: 0.7rem;
+
+                &:hover{
+                    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+                }
+            }
+        }
 }
 
 
-// Responsividade Tela Ampla /(min-width:2049px)
-
-@media(min-width:2049px){
-  /* Estilos para desktops grandes */
-}

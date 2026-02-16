@@ -108,12 +108,38 @@
 // Responsividade Desktop /(min-width:1729px) and (max-width: 2048px)
 
 @media(min-width:1729px) and (max-width: 2048px){
-  /* Estilos para desktops grandes */
+        .containerQuemSomos{
+            height: 80vh;
+            background-image: url("../../assets//backgroundQuemSomos.png");
+            background-repeat: no-repeat;
+            background-size: 100% 80vh;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            padding: 0 5rem 0 0;  
+            
+        }
+
+        .boxTextosQuemSomos{
+            width: 31%;
+            height: 70vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+
+            h2{
+                font-size: 3rem;
+                font-family: $fontePrincipal;
+                color: $colorAzul;
+                text-align: left;
+            }
+
+            p{
+                font-size: 1.35rem;
+                font-family: $fonteSecundaria;
+                text-align: left;
+            }
+        }
 }
 
 
-// Responsividade Tela Ampla /(min-width:2049px)
-
-@media(min-width:2049px){
-  /* Estilos para desktops grandes */
-}
